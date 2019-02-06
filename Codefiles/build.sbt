@@ -21,7 +21,7 @@ lazy val root = (project in file(".")).settings(
     "-target", "1.8",
     "-Xlint:unchecked",
     "-Xlint:deprecation"),
-  scalaVersion := "2.10.5",
+  scalaVersion := "2.10.6",
   libraryDependencies ++= Seq(
     "org.scalatest" %% "scalatest" % "2.2.5" % "test",
     "org.scalamock" %% "scalamock-scalatest-support" % "3.2.1" % "test",
